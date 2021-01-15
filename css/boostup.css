@@ -1,0 +1,56 @@
+.boostup-page {
+  min-height: 100vh;
+  padding: 50px 3vw 0px 3vw;
+}
+.boostup-ph {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.boostup-ph img {
+  background: #f4f9fb;
+  max-height: 100vh;
+  max-width: 560px;
+  padding: 0 1vw;
+}
+.one-click {
+  padding: 160px 20px 0px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.one-click hr {
+  width: 45px;
+  height: 5px;
+  border-radius: 7px;
+  border: transparent;
+  background-color: #0aebb3;
+}
+.one-click h1 {
+  font-weight: 600;
+  max-width: 520px;
+  font-size: 40px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.one-click p {
+  max-width: 620px;
+  margin-top: 25px;
+  font-size: 20px;
+  padding: 0px 10px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+}
+.one-click ul {
+  padding: 80px 1vw 0 1vw;
+  line-height: 60px;
+  max-width: 600px;
+}
+.one-click li {
+  font-size: 18px;
+  font-weight: 500;
+  list-style: none;
+}
+.one-click ul > li > i {
+  color: #0aebb3;
+  margin-right: 10px;
+}

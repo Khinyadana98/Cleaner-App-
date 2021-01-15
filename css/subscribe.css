@@ -1,0 +1,109 @@
+.subscribe-section {
+  min-height: 70vh;
+}
+.subscribe {
+  margin: 7vh 4vw;
+}
+
+.subscribe-form {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.subscribe h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin: 60px 0;
+}
+.subscribe input {
+  width: 420px;
+  height: 60px;
+  margin: 0 25px;
+  box-sizing: border-box;
+  border: 2px solid #f0eff4;
+  border-radius: 30px;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: #fff;
+  direction: ltr;
+  text-indent: 10px;
+  padding: 6px 12px;
+  font-size: 18px;
+}
+/* .subscribe ::placeholder {
+  padding: 0 25px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: #757575;
+  font-weight: 500;
+} */
+.subscribe input:focus {
+  border: 2px solid #0aebba;
+}
+.subscribe .btn {
+  justify-content: center;
+  padding: 18px 40px;
+  border-radius: 33px;
+  outline: none;
+  text-decoration: none;
+  border: transparent;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all 500ms ease-out;
+  background: linear-gradient(to right, #1bc8f0, #1cd3f4, #1ee8fb);
+}
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #1ee8fb, #1cd3f4, #1bc8f0);
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.footer .text h3 {
+  font-size: 24px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+.footer .text h5 {
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #909090;
+}
+.footer .Links {
+  margin: 30px 0 0 30px;
+}
+.footer .Links a {
+  text-decoration: none;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #909090;
+  transition: all 400ms ease-out;
+}
+.Links a:hover {
+  color: #0aebba;
+  cursor: pointer;
+}
+.icons {
+  margin-left: 17vw;
+}
+.icons i {
+  padding: 30px 15px;
+  color: #e8e8e8;
+  font-size: 18px;
+  transition: all 500ms ease-out;
+}
+i:hover {
+  color: #000;
+  cursor: pointer;
+}

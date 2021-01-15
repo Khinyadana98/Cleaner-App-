@@ -1,0 +1,121 @@
+.advanced-features {
+  min-width: 100vh;
+  margin: 0px 3vw;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col1 {
+  min-width: 40%;
+  margin: 0 40px;
+  padding-top: 270px;
+}
+.col1 hr {
+  width: 45px;
+  height: 5px;
+  border-radius: 7px;
+  border: transparent;
+  background-color: #0aebb3;
+  margin-bottom: 10px;
+}
+.col1 h1 {
+  font-weight: 600;
+  max-width: 500px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+.col1 .first {
+  max-width: 550px;
+  margin-top: 25px;
+  font-size: 20px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+}
+.col1 .second {
+  max-width: 550px;
+  /* padding: 0px 3vw 10px 0; */
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+}
+
+.col2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f4f9fb; */
+}
+
+.card-col1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.card-col2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+.card-col1 .one {
+  width: 270px;
+  height: 290px;
+  border-radius: 10px;
+  margin-top: 150px;
+  padding: 42px 35px;
+  margin-bottom: 40px;
+  background: linear-gradient(to bottom left, #0ce9f1, #39cfe7, #69c4e6);
+}
+.card-col1 .two {
+  width: 270px;
+  height: 290px;
+  border-radius: 8px;
+  padding: 42px 35px;
+  background: linear-gradient(to bottom left, #fdd45c, #f8c84b, #f5c551);
+}
+.card-col2 .three {
+  width: 270px;
+  height: 290px;
+  border-radius: 8px;
+  padding: 42px 35px;
+
+  background: linear-gradient(to bottom left, #ac77e8, #9e79de, #9f85da);
+}
+.card-col2 .four {
+  width: 270px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 42px 35px;
+  background: linear-gradient(to bottom left, #37f18e, #43ce7f, #61c68a);
+  margin-top: 40px;
+}
+.col2 > .card-col1,
+.card-col2 > .one,
+.two,
+.three,
+.four > i {
+  color: #fefaef;
+}
+.col2 h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #fefaef;
+}
+.col2 p {
+  color: #fefaef;
+  font-size: 15px;
+}
